@@ -1,0 +1,6 @@
+path: C:/Users/2gur1/Desktop/uygulama kayıt dosyaları/Github/Tübitak/DumanVeSigaraTespiti/ModelTrain/dataset/sigara
+train: images/train/
+val: images/val/
+test: images/val/
+names: 
+  0: sigara

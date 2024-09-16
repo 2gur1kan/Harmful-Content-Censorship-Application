@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1015</width>
+    <height>575</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>İstenmeyen Nesne Tespiti Uygulaması</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1015</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDosya">
+    <property name="title">
+     <string>Dosya</string>
+    </property>
+    <addaction name="actionResim_A"/>
+    <addaction name="actionVideo_A"/>
+    <addaction name="actionKaydet"/>
+    <addaction name="actionDosyay_Kapat"/>
+    <addaction name="separator"/>
+    <addaction name="actionProgramdan_k"/>
+   </widget>
+   <widget class="QMenu" name="menuE_itim">
+    <property name="title">
+     <string>Düzenle</string>
+    </property>
+    <addaction name="actionVeri_D_zenleme"/>
+    <addaction name="actionModel_E_itimi"/>
+    <addaction name="separator"/>
+    <addaction name="actionAyarlar"/>
+   </widget>
+   <widget class="QMenu" name="menuYard_m">
+    <property name="title">
+     <string>Yardım</string>
+    </property>
+    <addaction name="actionYard_m"/>
+    <addaction name="separator"/>
+    <addaction name="actionHakk_nda"/>
+   </widget>
+   <addaction name="menuDosya"/>
+   <addaction name="menuE_itim"/>
+   <addaction name="menuYard_m"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionResim_A">
+   <property name="text">
+    <string>Resim Aç</string>
+   </property>
+  </action>
+  <action name="actionVideo_A">
+   <property name="text">
+    <string>Video Aç</string>
+   </property>
+  </action>
+  <action name="actionKaydet">
+   <property name="text">
+    <string>Kaydet</string>
+   </property>
+  </action>
+  <action name="actionDosyay_Kapat">
+   <property name="text">
+    <string>Dosyayı Kapat</string>
+   </property>
+  </action>
+  <action name="actionProgramdan_k">
+   <property name="text">
+    <string>Programdan Çık</string>
+   </property>
+  </action>
+  <action name="actionVeri_D_zenleme">
+   <property name="text">
+    <string>Veri Düzenleme</string>
+   </property>
+  </action>
+  <action name="actionModel_E_itimi">
+   <property name="text">
+    <string>Model Eğitimi</string>
+   </property>
+  </action>
+  <action name="actionYard_m">
+   <property name="text">
+    <string>Yardım</string>
+   </property>
+  </action>
+  <action name="actionHakk_nda">
+   <property name="text">
+    <string>Hakkında</string>
+   </property>
+  </action>
+  <action name="actionAyarlar">
+   <property name="text">
+    <string>Ayarlar</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
