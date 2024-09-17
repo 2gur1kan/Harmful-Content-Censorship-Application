@@ -1,6 +1,9 @@
 # Harmful-Content-Censorship-Application
 
 In this project, a censorship application supported by Yolo V5 and V8 is aimed at automatically censoring videos containing harmful content.
+To open the project, you need to run the file located at Harmful-Content-Censorship-Application\Detection\mainwindow.py.
+To train your own models, you can use the provided code and dataset in the Harmful-Content-Censorship-Application\ModelTrain folder.
+To review the models I have trained in detail, you can open the zip file located in the Harmful-Content-Censorship-Application\Trained_Models_Training_Files folder. This file contains the best models obtained from the training process.
 
 **requirements**: Harmful-Content-Censorship-Application\Detection\models in unzip
 
